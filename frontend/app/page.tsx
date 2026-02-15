@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import { API_BASE, getJSON, postJSON } from "./lib/api";
+import { API_BASE, getJSON, postJSON } from "./api-utils";
 
 type Theme = "light" | "dark";
 
